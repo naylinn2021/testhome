@@ -148,7 +148,7 @@
 
              document.getElementById('resp-spinner7').classList.remove("d-none");
 
-            google.script.run.withSuccessHandler(createTable).processForm(formObject);
+            api.js.withSuccessHandler(createTable).processForm(formObject);
 
             document.getElementById("search-form").reset();
 
